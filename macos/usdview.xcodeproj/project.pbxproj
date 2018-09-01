@@ -524,8 +524,8 @@
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/deps/lib",
 					"@executable_path/../Frameworks",
-					"/tmp/usdview-native/deps/lib/",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,8 +551,8 @@
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/deps/lib",
 					"@executable_path/../Frameworks",
-					"/tmp/usdview-native/deps/lib/",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
